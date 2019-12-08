@@ -1,0 +1,8 @@
+C:\Users\dorivun\source\repos\Fileout\Fileout\bin\Release\Fileout.exe
+C:\Users\dorivun\source\repos\Fileout\Fileout\bin\Release\Fileout.pdb
+C:\Users\dorivun\source\repos\Fileout\Fileout\obj\Release\Fileout.csprojAssemblyReference.cache
+C:\Users\dorivun\source\repos\Fileout\Fileout\obj\Release\jp.mn.jp.uk.fileout.Form1.resources
+C:\Users\dorivun\source\repos\Fileout\Fileout\obj\Release\jp.mn.jp.uk.fileout.Form2.resources
+C:\Users\dorivun\source\repos\Fileout\Fileout\obj\Release\Fileout.csproj.GenerateResource.cache
+C:\Users\dorivun\source\repos\Fileout\Fileout\obj\Release\Fileout.exe
+C:\Users\dorivun\source\repos\Fileout\Fileout\obj\Release\Fileout.pdb
