@@ -74,9 +74,9 @@ namespace jp.mn.jp.uk.fileout
             }
             try
             {
-                using (System.IO.StreamWriter wr = new System.IO.StreamWriter(this.txtDest.Text, false))
+                using (System.IO.StreamWriter wr = new System.IO.StreamWriter(this.txtDest.Text, false, System.Text.Encoding.GetEncoding("shift-jis")))
                 {
-                    wr.WriteLine("Path,FileName,update");
+                    wr.WriteLine("Path,FileName,size,update");
                     SetFileList(this.txtTarget.Text, wr);
 
                     MessageBox.Show("File list completed!", "Info");
@@ -136,7 +136,7 @@ namespace jp.mn.jp.uk.fileout
                                 {
                                     filename = filepaths[filepaths.Length - 1];
                                 }
-                                sw.WriteLine(pathfile + "," + filename + "," + updatestr);
+                                sw.WriteLine(pathfile + "," + filename + "," + filesize.ToString() + "," + updatestr);
 
                             }
                         }
